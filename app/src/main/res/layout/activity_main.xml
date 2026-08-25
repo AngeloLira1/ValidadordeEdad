@@ -8,14 +8,19 @@
     android:gravity="center"
     android:padding="20dp" >
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu edad"
+        android:textSize="20sp"
+        />
+
     <EditText
+
         android:id="@+id/etEdad"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="40sp"
-        android:text="Ingresa tu edad"
-
-
         />
 
     <Button
@@ -23,6 +28,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Verificar"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+
+        />
 
 
 </LinearLayout>
